@@ -3,7 +3,10 @@ import React, { Component } from 'react';
 class ToDo extends Component {
     render() {
         return (
-            <li>Return a List Item Here</li>
+            <li>
+                <input type="checkbox" checked={ this.props.isCompleted } />
+                <span>{ this.props.description }</span>
+            </li>
         );
     }
 }
