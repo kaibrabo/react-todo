@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+    margin-top: 20px;
 }
 
 .App-logo {
@@ -25,4 +26,20 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+li {
+    list-style-type: none;
+}
+
+li input {
+    margin-right: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+li button {
+    margin-left: 10px;
 }
